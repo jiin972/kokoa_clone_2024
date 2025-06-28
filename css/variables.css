@@ -1,6 +1,6 @@
 :root {
-  --yellow: #fae131;
+  --dark-gray: #121212;
+  --light-gray: #282a2c;
+  --pink: #eb4684;
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
-  --subtitle-text__color: rgba(0, 0, 0, 0.5);
 }

@@ -1,16 +1,16 @@
 .badge-normal {
-  background-color: tomato;
+  background-color: var(--pink);
   width: 20px;
   height: 20px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
+  color: black;
   font-weight: 600;
 }
 .badge-small {
-  background-color: tomato;
+  background-color: var(--pink);
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -18,12 +18,12 @@
 
 .badge-circle {
   position: absolute;
-  border: 1px solid tomato;
+  border: 1px solid var(--pink);
   width: 15px;
   height: 15px;
   border-radius: 50%;
   text-align: center;
-  color: tomato;
+  color: var(--pink);
   font-weight: 600;
   left: 140px;
   top: 35px;

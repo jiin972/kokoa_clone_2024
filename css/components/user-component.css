@@ -1,15 +1,27 @@
 .user-component {
   justify-content: space-between;
+  color: white;
+  border-radius: 25px;
+}
+.user-component__column h5 {
+  margin-top: 15px;
+  font-size: 13px;
+  color: white;
+  opacity: 0.5;
+}
+
+.user-component:hover {
+  box-shadow: 0 3px 5px 0 var(--pink);
+  transform: scale(1.1);
+  transition: trnasform 0.1s ease-in-out;
 }
 
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-
-  /*padding: 10px 10px; 이 부분이 문제인듯, main에 var로 padding 적용으로 불필요.
-  2와 chevron이 라인정렬이 안되는 이유,, 해결 div배치 문제 25.2.14.*/
 }
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -27,25 +39,32 @@
 }
 .user-component__subtitle {
   margin-top: 10px;
-  font-size: 17px;
-  color: var(--subtitle-text__color);
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.5;
 }
 
 .user-component__avatar-xl {
   width: 80px;
   height: 80px;
   border-radius: 35%;
+  object-fit: cover;
 }
 .user-component__avatar-sm {
   width: 60px;
   height: 60px;
   border-radius: 35%;
+  object-fit: cover;
 }
 .user-component__column:nth-child(2) {
-  color: var(--subtitle-text__color);
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+.user-component__column:nth-child(2) i {
+  color: var(--pink);
 }
 .user-component__time {
   margin-bottom: 10px;

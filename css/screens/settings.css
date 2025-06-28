@@ -1,10 +1,11 @@
 .settings-setting {
   padding: 20px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid var(--light-gray);
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: white;
 }
 
 .settings-setting i {

@@ -20,10 +20,20 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
-body {
-  color: #2f363e;
-  font-family: "Open Sans", serif;
+html {
+  background: linear-gradient(30deg, black, greenyellow);
 }
-.main-screen {
-  padding: 0px var(--horizontal-space);
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: #2f363e;
+  font-family: "Open Sans", "Noto Sans KR" serif;
+  background-color: var(--dark-gray);
+  border-radius: 35px;
+  border: 1px solid white;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: scroll;
 }

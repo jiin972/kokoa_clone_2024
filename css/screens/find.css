@@ -1,14 +1,14 @@
 .recommended-friends {
   padding-bottom: 25px;
-  border-top: var(--main-border);
-  border-bottom: var(--main-border);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   margin: 25px 0px;
   padding: 25px 0px;
 }
 
 .recommended-friends__title {
   font-size: 12px;
-  color: var(--subtitle-text__color);
+  color: white;
 }
 
 .recommended-friends span {
@@ -16,13 +16,13 @@
   display: block;
   text-align: center;
   font-size: 15px;
-  color: var(--subtitle-text__color);
+  color: white;
 }
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  color: var(--subtitle-text__color);
   margin-bottom: 25px;
+  color: white;
 }
 .open-chat__header span {
   opacity: 0.7;
@@ -32,8 +32,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: var(--main-border);
+  border-bottom: 1px solid var(--light-gray);
   padding: 15px;
+  color: white;
 }
 
 .open-chat__post--title {
@@ -42,7 +43,7 @@
 }
 
 .open-chat__post--hashtags {
-  color: var(--subtitle-text__color);
+  color: white;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -51,7 +52,7 @@
   margin-top: 7px;
   display: flex;
   align-items: center;
-  color: var(--subtitle-text__color);
+  color: white;
 }
 
 .open-chat__post--members img {
@@ -85,6 +86,7 @@
   width: 120px;
   height: 120px;
   border-radius: 10%;
+  object-fit: cover;
 }
 
 .open-chat__post--heart-count {

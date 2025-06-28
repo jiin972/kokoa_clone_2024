@@ -1,14 +1,17 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #282a2c;
   padding: 15px 0px;
   font-size: 17px;
   margin-bottom: 15px;
   margin-top: -15px;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 35px;
 }
 #friends-display-link i {
-  color: var(--subtitle-text__color);
+  color: greenyellow;
 }
 /*class명 오기입으로 오작동 25.2.14. 00:53*/
 .friends-screen {
@@ -17,17 +20,22 @@
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: var(--main-border);
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 25px;
   padding-top: 15px;
 }
 .friends-screen__channel-header {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: var(--subtitle-text__color);
+  color: white;
 }
-
+.friends-screen__channel-header i {
+  color: var(--pink);
+}
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
@@ -39,15 +47,21 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: var(--dark-gray);
   position: absolute;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   top: 0;
+  left: 0;
+  border-radius: 35px;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 132px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
+}
+#splash-screen i {
+  color: var(--pink);
 }

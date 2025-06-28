@@ -4,16 +4,18 @@
 
 .more-suggestions {
   margin-top: 50px;
-  border-top: var(--main-border);
+  border-top: 1px solid var(--light-gray);
   padding-top: 40px;
 }
 
 .more-suggestions__title {
   margin-bottom: 25px;
+  color: white;
 }
 
 .more-suggestions__icons {
   display: flex;
+  color: white;
 }
 
 .more-suggestions__icon {
