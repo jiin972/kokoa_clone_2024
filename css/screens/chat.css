@@ -58,19 +58,11 @@
   border-radius: 25px;
   margin-bottom: 25px;
 }
-.message__notice {
-  position: absolute;
-  left: 86%;
-  top: 17.5%;
-  color: white;
-  font-weight: 500;
-  font-size: 20px;
-}
+
 .message-row {
   width: 100%;
   display: flex;
   margin-bottom: 25px;
-  position: relative;
 }
 
 .message-row img {
